@@ -34,12 +34,7 @@ public class Hooks {
             //downcasting is here in order to take and store a screenshot to byte array
 
             scenario.attach(screenshot, "image/png", scenario.getName());
-
         }
-
-
-
-
 
         Driver.closeDriver();
 

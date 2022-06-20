@@ -2,6 +2,13 @@ Feature: Wikipedia search functionality and verifications
 
   # WSF-45345 (potential jira ticket number veriliyormus sonradan cagirmak icin)
 
+  @wip
+  Scenario: Wikipedia Search Functionality Title Verification2
+    Given User is on Wikipedia home page2
+    When User types "Samsun" in the wiki search box2
+    And User clicks wiki search button
+    Then User sees "Samsun" is in the wiki title
+
   Scenario: Wikipedia Search Functionality Title verifications
     Given User is on Wikipedia home page
     When User types "Steve Jobs" in the wiki search box
