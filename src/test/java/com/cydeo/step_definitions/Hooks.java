@@ -9,6 +9,8 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
 public class Hooks {
+    //used to create pre and post cond. for scenarios and steps.
+    //we need to be extra careful. all the logic we create will be implements for all of the scenarios and/or steps in our project.
 
     @Before(order = 1)//import from io.cucumber.java not from junit!!
     public void setupScenario() {
@@ -24,7 +26,6 @@ public class Hooks {
     public void setupForDatabaseScenarios() {
         System.out.println("====this will only apply to scenarios with @db tag");
     }
-
     @After
     public void teardownScenario(Scenario scenario) {
 

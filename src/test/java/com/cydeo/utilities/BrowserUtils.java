@@ -66,4 +66,12 @@ for given duration
         // Driver.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);//ve bu satırı sonradan ilave etti?
         //sonra sildi ve yaklasık yarım saat anlattı sonra da Browser utility ye burayı copy paste yaptı ama?
     }
+
+    public static void verifyURLContains(String expectedInURL){
+        Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains(expectedInURL));
+
+    }
+
+
+
 }

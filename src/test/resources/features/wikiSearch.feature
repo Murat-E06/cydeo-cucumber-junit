@@ -2,7 +2,7 @@ Feature: Wikipedia search functionality and verifications
 
   # WSF-45345 (potential jira ticket number veriliyormus sonradan cagirmak icin)
 
-  @wip
+
   Scenario: Wikipedia Search Functionality Title Verification2
     Given User is on Wikipedia home page2
     When User types "Samsun" in the wiki search box2
