@@ -8,7 +8,7 @@
         - Scenario Outlines (introduction)
 
     ------------------------------------------------------------------------------------------
-
+from HULYA (helal olsun)
     - java
     - selenium - automate browser
     - maven
@@ -38,13 +38,13 @@
     - Hooks
         - annotations before/after/beforestep
 
-    - reports html report
+    - reports html report (she can add these subject to do perfected explanation)
         - additional reports
         - screen in the reports
         - scenario outlines
 
     ------------------------------------------------------------------------------------------
-
+from AYGUN
     - vytrack
     - intellij
     - selenium webdriver
@@ -62,9 +62,10 @@
 
     - Jenkins
 
-    - configuration.properties
+    - configuration.properties (she can add these subject to do perfected explanation)
     - configurationReader
     - pom.xml
+    - BDD
 
     ------------------------------------------------------------------------------------------
 
@@ -170,7 +171,7 @@
 
             }
 
-    1-> scenario.isFailed() :
+    1-> scenario.isFailed() : (senaryoda hata varsa screenshot ını alıyoruz developer a göstermek için!!)
         - if scenario fails this will return TRUE.
 
 
