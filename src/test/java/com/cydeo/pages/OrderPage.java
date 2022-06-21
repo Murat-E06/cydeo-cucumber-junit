@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
+
 public class OrderPage extends BasePage{
     public OrderPage(){
         PageFactory.initElements(Driver.getDriver(),this);
@@ -29,6 +31,18 @@ public class OrderPage extends BasePage{
 
     @FindBy(name="zip")
     public WebElement inputZip;
+
+    @FindBy(name="card")
+    public List<WebElement> cardType;// 3 tane kart tipi olduğu için radio box
+
+    @FindBy(name = "cardNo")
+    public WebElement cardNoInput;
+
+    @FindBy(name = "cardExp")
+    public WebElement cardExpInput;
+
+    @FindBy(css = "button[type='submit']")
+    public WebElement processOrderBtn;
 
 
 
