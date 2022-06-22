@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",   //path of the features directory
         glue = "com/cydeo/step_definitions",   //path to step_def
         dryRun = false,   //execute step_def or not. we can change it true to get snippets only and then again we change it false!
-        tags = "@smoke"   //it control to which scenario is run
+        tags = "@wip"   //it control to which scenario is run
 )
 
 public class CukesRunner {
